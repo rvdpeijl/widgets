@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Backbone.js</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css">
+	<!-- <script data-main="scripts/main" src="scripts/require.js"></script> -->
+	<script src="scripts/jquery.js"></script>
+	<script src="scripts/underscore.js"></script>
+	<script src="scripts/backbone.js"></script>
+	<script src="scripts/mvc.js"></script>
+	<script src="scripts/main.js"></script>
+	
+</head>
+<body>
+	
+	<div class="container">
+		<div class="userdata" id="user-list"></div>
+		<div id="fb-root"></div>
+		<div id="fb-message"></div>
+		<div id="fb-userid"></div>
+		<div id="fb-movies"></div>
+		<div id="fb-music"></div>
+		<div id="fb-sports"></div>
+		<div id="fb-activities"></div>
+		<div id="fb-likes"></div>
+		<div id="fb-button">
+			<fb:login-button show-faces="false" width="200" height="50" max-rows="1" perms="user_likes,user_birthday,friends_status"></fb:login-button>
+		</div>
+	</div>
+	
+</body>
+</html>
