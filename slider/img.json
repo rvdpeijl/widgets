@@ -1,0 +1,22 @@
+[	
+	{ 
+		"titel": "Dit is een titel",
+		"subtitel": "Dit is een subtitel",
+		"url": "img/skiman.jpg"
+	},
+	{
+		"titel": "hoi",
+		"subtitel": "Dit is een subtitel",
+		"url": "img/skiman.jpg"
+	},
+	{
+		"titel": "asdf",
+		"subtitel": "Dit is een subtitel",
+		"url": "img/skiman.jpg"
+	},
+	{
+		"titel": "sdfdsfs",
+		"subtitel": "Dit is een subtitel",
+		"url": "img/skiman.jpg"
+	}
+]
