@@ -6,7 +6,7 @@ var getNodeValue = function(key, value) {
 	//declaring variable in scope of the function
 	var retrievedValue
 	//using jQuery to load the specific XML file then the data is passed into the function
-	$.get( "buienxml.xml", function(data) {
+	$.get( "data/buienxml.xml", function(data) {
 		//we save our loaded data in a variable and then parse with the .parseXML function
 		var xml = data,
 		xmlDoc = $.parseXML( xml),
