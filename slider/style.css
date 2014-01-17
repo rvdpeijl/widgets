@@ -5,14 +5,19 @@
 
 body {
 	font-family:'Myriad Pro';
+	background: #253141;
 }
 
 #slider {
 	width: 900px;
 	height: 300px;
 	overflow: hidden;
-	margin: auto;
+	margin: 2em auto;
 	position: relative;
+
+	-webkit-box-shadow: 0px 3px 1px rgba(2,2,2, .4);
+	-moz-box-shadow: 0px 3px 1px rgba(2,2,2, .4);
+	box-shadow: 0px 3px 1px rgba(2,2,2, .4);
 }
 
 #slider ul {
@@ -31,24 +36,84 @@ body {
 	
 }
 
+#slider .left, #slider .right {
+	cursor: pointer;
+	-webkit-transition: background-color 0.2s;
+	-moz-transition: background-color 0.2s;
+	-ms-transition: background-color 0.2s;
+	-o-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+
 #slider .left {
-	width: 450px;
-	height: 300px;
 	position: absolute;
+	width: 450px;
 	left: 0;
+	top: 0;
 	z-index: 2;
+	bottom: 60px;
+	background-color: transparent;
 }
 
 #slider .right {
 	position: absolute;
 	width: 450px;
-	height: 300px;
 	right: 0;
+	top: 0;
 	z-index: 2;
+	bottom: 60px;
+	background-color: transparent;
+}
+
+#slider .right:hover, #slider .left:hover {
+	background-color: rgba(2,2,2, 0.5);
 }
 
 #slider .balk {
 	position: absolute;
 	bottom: 0;
 	z-index: 1;
+	width: 100%;
+	background-color: #fff;
+}
+
+#slider .balk p {
+	padding: 20px;
+	opacity: 1;
+}
+
+#slider .balk .bekijk {
+	float: right;
+	background-color: #f29148;
+	width: 150px;
+	padding: 22px;
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+#slider .balk .bekijk:active {
+	outline: 0;
+	border: none;
+}
+
+#slider .balk .bekijk:focus {
+	border: none;
+	outline: 0;
+}
+
+#slider .balk p.titel {
+	font-weight: bold;
+	color: #222;
+	padding-right: 5px;
+	position:absolute;
+	float: left;
+}
+
+#slider .balk p.subtitel {
+	color: #f29148;
+	padding-left:0px;
+	display: block;
+	float: right;
 }

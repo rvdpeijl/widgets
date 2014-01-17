@@ -1,22 +1,26 @@
 [	
 	{ 
-		"titel": "Dit is een titel",
-		"subtitel": "Dit is een subtitel",
-		"url": "img/skiman.jpg"
+		"titel": "Zin in Apres Ski?",
+		"subtitel": "Bij SnowPlanet kunt u heerlijk skieen tegen een lage prijs",
+		"url": "img/skiman.jpg",
+		"kleur": "#32aadf"
 	},
 	{
-		"titel": "hoi",
-		"subtitel": "Dit is een subtitel",
-		"url": "img/skiman.jpg"
+		"titel": "Lekker klimmen",
+		"subtitel": "In je onderbroek",
+		"url": "img/klimmen.jpg",
+		"kleur": "#b7037e"
 	},
 	{
-		"titel": "asdf",
-		"subtitel": "Dit is een subtitel",
-		"url": "img/skiman.jpg"
+		"titel": "Een unieke ervaring",
+		"subtitel": "Kom een nachtje slapen in Hotel Spaarnwoude!",
+		"url": "img/hotel.jpg",
+		"kleur": "#626260"
 	},
 	{
-		"titel": "sdfdsfs",
-		"subtitel": "Dit is een subtitel",
-		"url": "img/skiman.jpg"
+		"titel": "Verbeter uw handicap",
+		"subtitel": "sla een balletje op golfbaan Spaarnwoude",
+		"url": "img/golfen.jpg",
+		"kleur": "#f18a01"
 	}
 ]
